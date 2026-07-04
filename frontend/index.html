@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roblox AI Studio</title>
+    <link rel="stylesheet" href="/dashboard/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">AI-powered trend intelligence</p>
+          <h1>Roblox AI Studio</h1>
+          <p class="hero-copy">Track Roblox chart momentum, save scans, and uncover the next big opportunity.</p>
+        </div>
+        <div class="hero-badge">Live • Data-driven</div>
+      </header>
+
+      <section class="controls">
+        <button data-action="save-scan">Save Scan</button>
+        <button data-action="history">View History</button>
+        <button data-action="trend-report">Trend Report</button>
+        <button data-action="opportunities">Opportunities</button>
+      </section>
+
+      <section id="status" class="status-card">Select an action to explore the latest Roblox insights.</section>
+
+      <section id="results" class="results-grid"></section>
+    </div>
+
+    <script src="/dashboard/app.js"></script>
+  </body>
+</html>
